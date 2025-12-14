@@ -1,0 +1,29 @@
+{
+    "name": "anastation-boop/youshka",
+    "description": "Московская пиццерия — реализация",
+    "type": "project",
+    "license": "MIT",
+    "require": {
+        "php": ">=8.1",
+        "user/pizza": "dev-main"
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/anastation-boop/Pizza.git"
+        }
+    ],
+    "authors":[
+        {
+            "name": "anastation-boop",
+            "email": "vinogradovanasta750@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "PizzaYoshks\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
